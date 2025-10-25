@@ -1,0 +1,51 @@
+patient_id,account_number,MRN,first_name,last_name,dob,age,sex,address,city,state,zip,phone,email,insurance,primary_care_provider,allergies,chronic_conditions
+P0001,3193008687,65258086,Wyatt,Davis,09-12-1943,81,F,3757 Pine Rd,Austin,AZ,21405,(805) 632-1520,wyatt.davis31@example.com,Medicare,Dr. Gupta,"Latex, Iodine, Penicillin",Hypothyroidism
+P0002,2429623708,13676065,Carter,Davis,18-02-1988,37,M,6025 Cherry St,San Antonio,CA,16016,(878) 433-5741,carter.davis82@example.com,Self-pay,Dr. Hughes,"Penicillin, Sulfa drugs",CKD stage 2
+P0003,7403959807,32950016,Aiden,Sanchez,07-02-1974,51,Nonbinary,5255 Cedar Ln,Irving,MA,94269,(670) 346-5339,aiden.sanchez143@example.com,Medicaid,Dr. Xu,"Aspirin, Latex, Iodine",GERD
+P0004,4139822507,51319995,Hazel,Wright,11-11-1974,50,F,4908 Birch Ct,Houston,CO,10435,(940) 936-5315,hazel.wright996@example.com,Aetna PPO,Dr. Young,"Peanuts, Penicillin, Morphine",Osteoarthritis
+P0005,7000352457,84200550,Ava,Carter,05-03-2008,17,Nonbinary,7887 Willow Blvd,Houston,NY,79173,(822) 633-4470,ava.carter952@example.com,Aetna PPO,Dr. Young,"Latex, Sulfa drugs, Shellfish","Osteoarthritis, CKD stage 2, Generalized Anxiety"
+P0006,4808806500,7811511,William,Torres,26-04-2000,25,M,6769 Cedar Ln,Austin,CA,96384,(642) 562-7939,william.torres421@example.com,UnitedHealthcare HMO,Dr. Xu,NKDA,"Osteoarthritis, Type 2 Diabetes"
+P0007,495058008,64120703,David,Thomas,16-07-1961,64,M,3602 Birch Ct,Dallas,FL,59682,(203) 599-5345,david.thomas949@example.com,Self-pay,Dr. Zhou,"Morphine, Sulfa drugs","Hypothyroidism, CAD"
+P0008,5513022453,64990650,Layla,Davis,20-10-1971,53,F,1443 Birch Ct,Round Rock,GA,78532,(524) 467-4346,layla.davis686@example.com,Cigna EPO,Dr. Khan,"Latex, Shellfish",
+P0009,6275400895,49804207,Nora,King,27-11-1941,83,Nonbinary,5005 Oak Ave,Houston,NY,25139,(310) 960-3546,nora.king279@example.com,Blue Cross PPO,Dr. Taylor,"Latex, Sulfa drugs, Peanuts","COPD, CAD"
+P0010,8827188284,98807398,Aria,Nguyen,14-03-2010,15,F,785 Elm St,Plano,TX,56908,(416) 898-5088,aria.nguyen683@example.com,Medicare,Dr. Lopez,"Aspirin, Shellfish","Asthma, Hyperlipidemia"
+P0011,6535270957,91921473,Jackson,Anderson,22-01-1968,57,F,6628 Walnut Dr,Frisco,CA,46595,(560) 856-9346,jackson.anderson410@example.com,Cigna EPO,Dr. Reed,Shellfish,
+P0012,5644249710,69635024,Riley,Mitchell,14-06-1965,60,F,5509 Cherry St,Plano,CA,49373,(720) 516-7691,riley.mitchell335@example.com,UnitedHealthcare HMO,Dr. Williams,"Sulfa drugs, Peanuts, Aspirin",Depression
+P0013,7286459114,73316888,Benjamin,Nelson,27-02-1982,43,F,5185 Cedar Ln,San Antonio,FL,13211,(248) 450-8784,benjamin.nelson626@example.com,Self-pay,Dr. Young,"Penicillin, Shellfish","GERD, Asthma"
+P0014,7045424956,2235126,Avery,Scott,20-08-1980,45,Nonbinary,8370 Birch Ct,Arlington,CO,30871,(962) 686-8373,avery.scott266@example.com,Self-pay,Dr. Hughes,"Sulfa drugs, Shellfish, Morphine",Generalized Anxiety
+P0015,5061403237,64141603,David,Torres,01-08-1988,37,M,4992 Birch Ct,Fort Worth,AZ,81592,(818) 425-8999,david.torres225@example.com,Blue Cross PPO,Dr. Nguyen,Morphine,Osteoarthritis
+P0016,6718910369,11652671,Mason,Moore,27-05-1993,32,F,7805 Maple St,Arlington,TX,55880,(430) 865-2124,mason.moore800@example.com,Cigna EPO,Dr. Baker,NKDA,"Asthma, Hypertension, GERD"
+P0017,1566974853,4443841,Layla,Rivera,19-02-1965,60,Nonbinary,4078 Oak Ave,Frisco,GA,25876,(780) 242-6688,layla.rivera546@example.com,UnitedHealthcare HMO,Dr. Vasquez,Shellfish,CKD stage 2
+P0018,7402426353,55124524,Henry,Garcia,08-08-1975,50,M,9436 Cherry St,Fort Worth,WA,13771,(707) 532-3979,henry.garcia500@example.com,Medicaid,Dr. Lopez,"Sulfa drugs, Latex","Hypothyroidism, COPD"
+P0019,3710029671,25759823,Riley,Scott,23-06-1982,43,M,4538 Elm St,Frisco,IL,25824,(939) 397-6169,riley.scott123@example.com,Cigna EPO,Dr. Reed,Peanuts,Generalized Anxiety
+P0020,7392545090,89025456,Olivia,Torres,16-08-1976,49,M,5682 Pine Rd,Dallas,NY,72626,(317) 266-7565,olivia.torres504@example.com,Medicare,Dr. Singh,NKDA,
+P0021,1121210758,28022758,David,Wilson,22-05-1967,58,F,2673 Cedar Ln,Houston,AZ,19848,(361) 202-7693,david.wilson462@example.com,Cigna EPO,Dr. Taylor,"Morphine, Penicillin",Hypothyroidism
+P0022,7469156403,98599620,Camila,Lewis,23-08-1955,70,M,6694 Elm St,Arlington,AZ,74732,(649) 282-1653,camila.lewis911@example.com,UnitedHealthcare HMO,Dr. Xu,"Shellfish, Latex, Penicillin",
+P0023,9461962155,41376725,Luna,Lee,11-03-1953,72,M,8217 Elm St,Fort Worth,AZ,14819,(666) 290-6153,luna.lee259@example.com,Blue Cross PPO,Dr. Diaz,"Iodine, Aspirin, Penicillin","CAD, Generalized Anxiety"
+P0024,5941535543,27495822,Elijah,Anderson,04-08-1954,71,Nonbinary,2622 Spruce Way,Frisco,AZ,45848,(626) 694-8736,elijah.anderson250@example.com,UnitedHealthcare HMO,Dr. Reed,"Peanuts, Latex","CAD, Hyperlipidemia, Type 2 Diabetes"
+P0025,3668883377,54746149,Amelia,Hall,13-10-1970,54,F,6830 Maple St,Plano,CO,59978,(596) 879-3492,amelia.hall508@example.com,Medicare,Dr. Edwards,"Aspirin, Latex, Penicillin","Generalized Anxiety, Type 2 Diabetes"
+P0026,862914220,72315571,Carter,Williams,21-04-1948,77,Nonbinary,4808 Cedar Ln,Austin,MA,22913,(979) 848-2646,carter.williams455@example.com,Medicaid,Dr. Williams,Sulfa drugs,
+P0027,7064927636,59296256,Ellie,Jackson,03-03-2009,16,M,5761 Cherry St,Frisco,MA,42790,(668) 509-4263,ellie.jackson394@example.com,Self-pay,Dr. Patel,Penicillin,CKD stage 2
+P0028,2884072663,83521999,Chloe,Taylor,04-11-1957,67,Nonbinary,745 Elm St,Irving,TX,85975,(574) 949-3153,chloe.taylor93@example.com,Blue Cross PPO,Dr. Khan,Iodine,CAD
+P0029,6100912533,69366647,Ella,White,01-07-1951,74,M,8891 Oak Ave,Irving,WA,98198,(967) 888-5295,ella.white599@example.com,UnitedHealthcare HMO,Dr. Ueda,Shellfish,"Generalized Anxiety, Hypertension"
+P0030,269039728,39602998,Riley,Hall,19-07-2009,16,Nonbinary,2631 Birch Ct,Austin,CO,90704,(618) 486-1536,riley.hall707@example.com,Blue Cross PPO,Dr. Gupta,"Morphine, Peanuts","Type 2 Diabetes, Osteoarthritis"
+P0031,3542679636,50214104,Ella,Wilson,11-04-1967,58,F,9864 Maple St,Frisco,FL,27048,(754) 456-3858,ella.wilson113@example.com,Cigna EPO,Dr. Adams,Peanuts,Asthma
+P0032,4848373329,54716858,Liam,Brown,14-07-2001,24,Nonbinary,1868 Spruce Way,Irving,CA,20599,(530) 822-3430,liam.brown68@example.com,Medicaid,Dr. Ibrahim,"Aspirin, Latex, Sulfa drugs","CAD, COPD, Generalized Anxiety"
+P0033,8375889866,96352621,Hazel,Walker,27-02-1948,77,F,1627 Birch Ct,Austin,WA,27064,(770) 261-6400,hazel.walker687@example.com,Medicare,Dr. Nguyen,"Shellfish, Aspirin, Sulfa drugs","Hypothyroidism, Hypertension"
+P0034,8170044642,53413395,Liam,Hill,06-01-1974,51,M,5162 Walnut Dr,Plano,TX,33787,(347) 779-7566,liam.hill72@example.com,Medicaid,Dr. Xu,NKDA,
+P0035,3374403446,14415256,Benjamin,Davis,04-07-1984,41,M,9817 Spruce Way,Arlington,NY,15962,(426) 604-1897,benjamin.davis8@example.com,Medicaid,Dr. Jones,Latex,"COPD, CKD stage 2"
+P0036,1121170964,6517396,Camila,Davis,11-01-1991,34,F,7638 Walnut Dr,Austin,MA,23885,(450) 646-7560,camila.davis537@example.com,Medicare,Dr. Miller,"Sulfa drugs, Latex, Peanuts",Hyperlipidemia
+P0037,5457848634,34080886,William,Carter,19-11-1997,27,Nonbinary,5395 Walnut Dr,Houston,CO,18960,(681) 652-5961,william.carter816@example.com,Blue Cross PPO,Dr. Singh,NKDA,Type 2 Diabetes
+P0038,8961069366,60633532,Lucas,Brown,26-02-1997,28,M,1481 Willow Blvd,Houston,TX,42482,(925) 648-8199,lucas.brown537@example.com,Aetna PPO,Dr. Taylor,"Peanuts, Sulfa drugs","Depression, Hypothyroidism, CKD stage 2"
+P0039,371318781,21081788,Isabella,Hill,18-05-1950,75,M,5481 Pine Rd,Arlington,CA,94685,(887) 633-9331,isabella.hill371@example.com,Medicare,Dr. Lopez,Sulfa drugs,"CKD stage 2, Generalized Anxiety, Asthma"
+P0040,1268518827,94235988,Alexander,Williams,22-06-1992,33,Nonbinary,3991 Spruce Way,Round Rock,NY,68851,(440) 746-4918,alexander.williams317@example.com,Self-pay,Dr. Zhou,Morphine,GERD
+P0041,8746902196,30731094,Sebastian,Lewis,27-03-2005,20,M,1602 Cedar Ln,Irving,WA,13505,(625) 254-7495,sebastian.lewis515@example.com,Blue Cross PPO,Dr. Hughes,Iodine,Hypertension
+P0042,5595346920,46246090,Gianna,Davis,10-04-1976,49,F,882 Cedar Ln,Fort Worth,GA,69924,(265) 313-9189,gianna.davis612@example.com,Aetna PPO,Dr. Adams,"Aspirin, Peanuts, Iodine",
+P0043,3384062806,17902783,Ava,Thompson,22-12-1970,54,Nonbinary,1798 Cherry St,Plano,FL,15821,(561) 759-6546,ava.thompson834@example.com,Cigna EPO,Dr. Foster,"Morphine, Sulfa drugs, Iodine",
+P0044,4630839299,68530636,Sebastian,Davis,13-07-1987,38,Nonbinary,7304 Birch Ct,Plano,FL,75048,(909) 709-7018,sebastian.davis947@example.com,Self-pay,Dr. Qi,Sulfa drugs,"Type 2 Diabetes, Depression"
+P0045,2174352249,69375536,Ava,Nelson,17-06-1991,34,Nonbinary,2721 Maple St,Houston,GA,98888,(649) 235-3068,ava.nelson69@example.com,Medicaid,Dr. Young,"Shellfish, Sulfa drugs","Hypertension, GERD, Hyperlipidemia"
+P0046,5491803744,13297243,Camila,Hall,04-04-2002,23,F,1313 Spruce Way,Houston,CO,21516,(899) 527-6692,camila.hall727@example.com,Medicare,Dr. Reed,"Aspirin, Latex","Hypothyroidism, Osteoarthritis"
+P0047,1926606551,31929520,Michael,Torres,11-03-1949,76,Nonbinary,1315 Spruce Way,Irving,AZ,55166,(332) 998-3981,michael.torres787@example.com,Medicaid,Dr. Nguyen,Aspirin,"CAD, Hyperlipidemia"
+P0048,2637789135,48620044,Chloe,Campbell,02-10-1983,41,F,1430 Maple St,Round Rock,NY,95354,(416) 985-7825,chloe.campbell633@example.com,Cigna EPO,Dr. Adams,"Morphine, Shellfish, Latex",COPD
+P0049,2502586201,19484034,Aiden,Thomas,09-02-1999,26,M,4161 Pine Rd,Austin,TX,48048,(594) 830-7850,aiden.thomas255@example.com,Self-pay,Dr. Foster,"Shellfish, Morphine, Latex",
+P0050,5013446536,93739715,Isabella,Taylor,12-07-1986,39,F,6663 Maple St,Round Rock,AZ,35523,(572) 766-5728,isabella.taylor76@example.com,UnitedHealthcare HMO,Dr. Qi,"Morphine, Latex, Shellfish","Type 2 Diabetes, Hyperlipidemia"
