@@ -105,10 +105,15 @@ COMMENT = 'Unstructured health agent data from Excel file for Cortex Search';
 -- 5. CORTEX SEARCH SERVICE CREATION
 -- ============================================================================
 
--- Create Cortex Search service on the unstructured data table
-CREATE CORTEX SEARCH SERVICE HEALTH_UNSTRUCTURED_SEARCH
-ON TABLE HEALTH_AGENT_UNSTRUCTURED
-TARGET_COLUMN UNSTRUCTURED_DATA;
+-- Create Cortex Search service on unstructured data
+CREATE OR REPLACE CORTEX SEARCH SERVICE HEALTH_UNSTRUCTURED_SEARCH
+  ON UNSTRUCTURED_DATA
+  WAREHOUSE = 'COMPUTE_WH'
+  TARGET_LAG = '1 hour'
+  EMBEDDING_MODEL = 'snowflake-arctic-embed-m-v1.5'
+AS
+  SELECT UNSTRUCTURED_DATA
+  FROM HEALTH_AGENT_UNSTRUCTURED;
 
 -- ============================================================================
 -- 6. SAMPLE DATA LOADING (Optional - for reference)
@@ -177,3 +182,4 @@ SHOW CORTEX SEARCH SERVICES;
 -- ============================================================================
 -- SCRIPT COMPLETED
 -- ============================================================================
+
