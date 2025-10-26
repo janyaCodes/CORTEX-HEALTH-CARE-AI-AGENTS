@@ -179,7 +179,45 @@ SHOW STAGES;
 -- List Cortex Search services
 SHOW CORTEX SEARCH SERVICES;
 
+COPY INTO HOSPITAL.PUBLIC.HEALTH_AGENT_UNSTRUCTURED (UNSTRUCTURED_DATA, FILE_NAME, METADATA)
+FROM (
+    SELECT 
+        $4,
+        'health_agent_unstructured.csv',
+        OBJECT_CONSTRUCT('EncounterID', $1, 'MRN', $2, 'Account', $3)
+    FROM @Hospital.public.HEALTH_DATA_STAGE/health_agent_unstructured.csv
+)
+FILE_FORMAT = (TYPE = 'CSV' SKIP_HEADER = 1 FIELD_OPTIONALLY_ENCLOSED_BY = '"')
+ON_ERROR = 'CONTINUE';
+
+COPY INTO HOSPITAL.PUBLIC.PATIENTS_STRUCTURED (PATIENT_ID, ACCOUNT_NUMBER, MRN, FIRST_NAME, LAST_NAME, DOB, AGE, SEX, ADDRESS, CITY, STATE, ZIP, PHONE, EMAIL, INSURANCE, PRIMARY_CARE_PROVIDER, ALLERGIES, CHRONIC_CONDITIONS)
+FROM (
+    SELECT 
+        $1,
+        $2,
+        $3,
+        $4,
+        $5,
+        TO_DATE($6, 'DD-MM-YYYY'),
+        $7,
+        $8,
+        $9,
+        $10,
+        $11,
+        $12,
+        $13,
+        $14,
+        $15,
+        $16,
+        $17,
+        $18
+    FROM @Hospital.public.HEALTH_DATA_STAGE/patients_structured.csv
+)
+FILE_FORMAT = (TYPE = 'CSV' SKIP_HEADER = 1 FIELD_OPTIONALLY_ENCLOSED_BY = '"')
+ON_ERROR = 'CONTINUE';
+
 -- ============================================================================
 -- SCRIPT COMPLETED
 -- ============================================================================
+
 
