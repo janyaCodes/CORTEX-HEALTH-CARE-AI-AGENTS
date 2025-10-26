@@ -142,10 +142,10 @@ A simple Streamlit chatbot that runs **inside Snowflake** and integrates with Sn
 3. **Create the Streamlit app**:
    ```sql
    CREATE OR REPLACE STREAMLIT MEDICAL_CHATBOT
-FROM '@my_streamlit_stage'
-MAIN_FILE = 'app.py'
-QUERY_WAREHOUSE = 'COMPUTE_WH'
-COMMENT = 'Medical Agent Chatbot for healthcare professionals';
+   FROM '@my_streamlit_stage'
+   MAIN_FILE = 'app.py'
+   QUERY_WAREHOUSE = 'COMPUTE_WH'
+   COMMENT = 'Medical Agent Chatbot for healthcare professionals';
    ```
 
 4. **Get the app URL**:
@@ -268,3 +268,4 @@ This project is for educational and demonstration purposes. Feel free to modify 
 
 
 **Need help?** If you're stuck on any step, check the troubleshooting section above or refer to the Snowflake documentation. Happy coding! 🚀
+
